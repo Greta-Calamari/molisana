@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: url('../img/fondo-pag-speciali.jpg');
+}
+
+.container .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container .row .col {
+  background-color: lightblue;
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+}
+
+.container .row .col img {
+  width: 100%;
+}
+
